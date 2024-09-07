@@ -1,0 +1,74 @@
+.container{
+    text-align: left;
+    margin: auto;
+    padding: auto;
+    max-width: 600px; 
+            width: 100%; 
+            background: #fff; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.reg{
+    text-align: center;
+   
+}
+
+.img{
+    width: 500px;
+    height: 200px;
+}
+
+.logo{
+   text-align: center;
+    
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Coloca la etiqueta y el campo en una columna */
+    margin-bottom: 1.5em; /* Espacio entre cada grupo de etiqueta y campo */
+}
+label {
+    margin-bottom: 0.5em; /* Espacio debajo de la etiqueta */
+    font-weight: bold; /* Hace que el texto de la etiqueta sea más visible */
+}
+input[type="text"], input[type="email"], textarea {
+    width: calc(100% - 2em); /* Ocupa el 100% del contenedor menos el padding horizontal */
+    padding: 0.5em; /* Espacio interno en el campo de entrada */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+input[type="file"] {
+    width: calc(100% - 2em); /* Ocupa el 100% del contenedor menos el padding horizontal */
+    margin-top: 0.5em; /* Espacio encima del campo de archivo */
+}
+textarea {
+    height: 100px; /* Ajusta la altura del área de texto */
+}
+button {
+    width: calc(100% - 2em); /* Hace que el botón ocupe el ancho total menos el padding horizontal */
+    padding: 0.5em; /* Espacio interno en el botón */
+    border: none; /* Elimina el borde por defecto del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border-radius: 4px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 1em; /* Tamaño del texto del botón */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    margin-top: 1em; /* Espacio encima del botón */
+}
+button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el cursor sobre él */
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+footer{
+    margin-top: 5em;
+    text-align: center;
+}
